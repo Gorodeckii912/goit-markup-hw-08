@@ -18,7 +18,7 @@
     height: 120px;
     background: #f5f4fa;
     border-radius: 4px;
-    margin-bottom: 30px;
+    
   }
   
   .section__links {
@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   
   .section__WS1h3 {
@@ -37,6 +38,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--H2-H3-Text-color);
+    margin-top: 30px;
     margin-bottom: 10px;
     width: 270px;
   }
