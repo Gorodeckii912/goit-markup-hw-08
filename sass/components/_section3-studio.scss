@@ -15,12 +15,14 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--H2-H3-Text-color);
-  margin-bottom: 50px;
-  padding: 0 450px 0 450px;
+  margin-bottom: 30px;
+  
 }
+
 
 .section__imgworkers {
   border-radius: 0px;
+  width: 100%;
 }
 
 .section__WS3h3 {
@@ -51,6 +53,7 @@
   background-color: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
+  &:not(last-child) { margin-bottom: 30px;}
 }
 
 .section__barbers-info {
@@ -70,6 +73,7 @@
   &:not(:last-child) {
     margin-right: 10px;
   }
+  
 }
 
 .section__barbers-link {
@@ -83,12 +87,12 @@
   transition: var(--background-time);
   transition-timing-function: var(--Cubik);
 
-  &:hover,
+  &:hover ,
   &:focus {
     background-color: var(--link-active-color);
   }
-  &:hover .barbers-soc-icon,
-  &:focus .barbers-soc-icon {
+  &:hover .section__barbers-icon ,
+  &:focus .section__barbers-icon {
     background-color: var(--link-active-color);
     fill: #fff;
   }
@@ -103,4 +107,4 @@
   margin-right: 30px;
 }
 .section__ulstyle { list-style: none;
-  display: flex;}
+  display: block;}

@@ -38,9 +38,19 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding: 0px 15px;
   margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 448px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
 }
 
 :root {
@@ -553,7 +563,7 @@ header .container {
 /* Майн веб-------------hero-------------- */
 .main {
   max-width: 1600px;
-  margin: 0 auto;
+  margin: auto auto;
 }
 
 .WS0 {
@@ -604,6 +614,7 @@ header .container {
 /* WS1P -wEBSTUDIO Section 1 P */
 .WS1 {
   background-color: var(--main-Section1and2Back-color);
+  padding-bottom: 120px;
 }
 
 .section__specials {
@@ -725,12 +736,12 @@ header .container {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--H2-H3-Text-color);
-  margin-bottom: 50px;
-  padding: 0 450px 0 450px;
+  margin-bottom: 30px;
 }
 
 .section__imgworkers {
   border-radius: 0px;
+  width: 100%;
 }
 
 .section__WS3h3 {
@@ -761,6 +772,9 @@ header .container {
   background-color: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.section__namesborder:not(last-child) {
+  margin-bottom: 30px;
 }
 
 .section__barbers-info {
@@ -795,7 +809,7 @@ header .container {
 .section__barbers-link:hover, .section__barbers-link:focus {
   background-color: var(--link-active-color);
 }
-.section__barbers-link:hover .barbers-soc-icon, .section__barbers-link:focus .barbers-soc-icon {
+.section__barbers-link:hover .section__barbers-icon, .section__barbers-link:focus .section__barbers-icon {
   background-color: var(--link-active-color);
   fill: #fff;
 }
@@ -812,7 +826,7 @@ header .container {
 
 .section__ulstyle {
   list-style: none;
-  display: flex;
+  display: block;
 }
 
 /* SEction 4-------------------- */
