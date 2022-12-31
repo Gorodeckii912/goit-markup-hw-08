@@ -1,0 +1,70 @@
+/* section 2---------portfolio--------------------------------*/
+
+.PS2 {
+  background-color: var(--main-Section1and2Back-color);
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.ulstyle3 {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgtext {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  padding: 20px;
+}
+.imgposition {
+  position: relative;
+  overflow: hidden;
+
+  &:hover .text-hidden,
+  &:focus .text-hidden {
+    transform: translateY(0);
+  }
+}
+
+.text-hidden {
+  position: absolute;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: rgba(33, 150, 243, 0.9);
+  padding: 63px 24px;
+  top: 0;
+
+  transform: translateY(100%);
+  transition: transform var(--time-trans) var(--Cubik);
+}
+
+.img1 {
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.img2 {
+  margin-right: 30px;
+}
+
+.PS2h3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--H2-H3-Text-color);
+}
+
+.PS2p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--P-Text-color);
+}

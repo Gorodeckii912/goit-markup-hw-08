@@ -1,0 +1,39 @@
+/* section 2 ----------------------------*/
+.WS2 {
+    background-color: var(--main-Section1and2Back-color);
+  }
+  
+  .section__WS2h2 {
+    padding: 0 486px 0 486px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--H2-H3-Text-color);
+    margin-bottom: 50px;
+    padding: 0 400px 0 400px;
+  }
+  
+  .sec2position {
+    position: relative;
+  }
+  .sec2-text-in {
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    color: #ffffff;
+    background: rgba(47, 48, 58, 0.8);
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.14x;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 27px 95px;
+  }
+  .section__WW {
+    margin-right: 30px;
+  }
+  .section__ulstyle { list-style: none;
+    display: flex;}

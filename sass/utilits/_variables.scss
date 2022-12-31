@@ -1,0 +1,35 @@
+:root {
+    /* включает цвет логотипа */
+    --link-active-color: #2196f3;
+  
+    --logo-second-color: #000000;
+    --logo-secondfooter-color: #ffffff;
+    /* остальніе переменніе цвета */
+  
+    --head-back-color: #ffffff;
+    --head-nav-color: #212121;
+    --head-mailtel-color: #757575;
+    --footer-back-color: #2f303a;
+    --adress-footer-color: #ffffff;
+    --footer-MailTel-color: rgba(255, 255, 255, 0.6);
+    --main-HEroback-color: #2f303a;
+    --main-HeroText-color: #ffffff;
+    --main-HeroButtonText-color: #ffffff;
+    --main-HeroButtonBack-color: rgba(33, 150, 243, 1);
+    --main-ButtonActive-color: rgb(13, 15, 17);
+    --main-Section1and2Back-color: #ffffff;
+    --H2-H3-Text-color: #212121;
+    --portfolio-Button_color: #212121;
+    --portfolio-ButtonActive-color: #ffffff;
+    --portfolio-BattonBack-color: rgba(33, 150, 243, 1);
+    --P-Text-color: #757575;
+    --Main-Section3Back-color: #f5f4fa;
+  
+    /* Icons------------- */
+    --icons: #afb1b8;
+  
+    /* time -cubik-background-----  ВРЕМЯ АНИМАЦИЙ---- */
+    --Cubik: cubic-bezier(0.4, 0, 0.2, 1);
+    --time-trans: 500ms;
+    --background-time: background-color 500ms;
+  }

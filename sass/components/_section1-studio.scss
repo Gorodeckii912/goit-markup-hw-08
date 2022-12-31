@@ -1,0 +1,61 @@
+/* section1------------------------- */
+/* WS1h3 - Webstudio Section 1 H3 */
+/* WS1P -wEBSTUDIO Section 1 P */
+
+.WS1 {
+    background-color: var(--main-Section1and2Back-color);
+  }
+  
+  .section__specials {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .section__item {
+    width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  
+  .section__links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section__WS1h3 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--H2-H3-Text-color);
+    margin-bottom: 10px;
+    width: 270px;
+  }
+  
+  .WW {
+    margin-right: 30px;
+  }
+  .LL {
+    margin-left: auto;
+  }
+  
+  .section__WS1P {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--P-Text-color);
+    width: 270px;
+  }
+  .section__ulstyle { list-style: none;
+    display: flex;}

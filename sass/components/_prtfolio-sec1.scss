@@ -1,0 +1,46 @@
+/*Portfolio  ------------------------------------*/
+
+.btnP {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+  transition: var(--time-trans);
+  transition-timing-function: var(--Cubik);
+
+  &:hover,
+  &:focus {
+    color: var(--portfolio-ButtonActive-color);
+    background-color: var(--portfolio-BattonBack-color);
+  }
+}
+
+.b1 {
+  margin: 0 794px 0 327px;
+  padding: 6px 22px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.b2 {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-right: 8px;
+  padding: 6px 22px;
+}
+.b3 {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
+.words5 {
+  margin-bottom: 53px;
+}
