@@ -19,6 +19,17 @@ header .container {
   letter-spacing: 0.03em;
   color: var(--link-active-color);
   padding: 24px 0 25px 0px;
+
+
+  @media screen and (min-width: 777px) {
+    
+    padding: 24px 0 25px 0px;
+ 
+  
+}
+
+  
+  
 }
 
 .logo2 {
@@ -29,13 +40,36 @@ header .container {
   letter-spacing: 0.03em;
   color: var(--logo-second-color);
   margin-right: 104px;
+  
+  @media screen and (max-width: 1199px) {
+    
+      margin-right: 78px;
+   
+    
+  }
 }
 
 .navigation {
   display: flex;
   height: 80px;
-}
 
+  @media screen and (max-width: 480px) {
+    display: none;
+    
+  }
+  @media screen and (max-width: 1199px) {
+   justify-content: space-between;
+    
+  }
+}
+.navigation2{
+  display: flex;
+
+  @media screen and (max-width: 1199px) {
+    
+   display: block;
+   padding-top: 14px;
+}}
 .navigation__list-string {
   padding-top: 32px;
   position: relative;
@@ -43,9 +77,23 @@ header .container {
   &:not(:last-child) {
     margin-right: 54px;
   }
+  @media screen and (max-width: 1199px) {
+    
+    &:not(:last-child) {
+      margin-right: 48px;
+    }
+ 
+  
+}
 
   &:last-child {
     margin-right: 280px;
+  }
+  @media screen and (max-width: 1199px) {
+    &:last-child {
+      margin-right: 77px;
+    }
+    
   }
 }
 
@@ -59,6 +107,7 @@ header .container {
   color: var(--head-nav-color);
   transition: var(--time-trans);
   transition-timing-function: var(--Cubik);
+  
 
   &:hover,
   &:focus {
@@ -84,7 +133,13 @@ header .container {
 
 .otstup-top {
   padding-top: 32px;
+  @media screen and (max-width: 1199px) {
+    display: block;
+    padding-top: 8px;
+    
+  }
 }
+
 
 .navigation__mail-tel {
   text-decoration: none;
@@ -112,8 +167,17 @@ header .container {
   &:focus {
     fill: var(--link-active-color);
   }
+  @media screen and (max-width: 1199px) {
+    
+    margin-right: 6px;
+}
 }
 
 .mailmargin {
   margin-right: 30px;
-}
+
+  @media screen and (max-width: 1199px) {
+    
+    margin-right: 0px;
+    margin-bottom: 7px;
+}}

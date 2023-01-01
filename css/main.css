@@ -72,6 +72,11 @@ body {
     width: 1200px;
   }
 }
+@media screen and (max-width: 1199px) {
+  .container {
+    padding: 0px;
+  }
+}
 
 :root {
   /* включает цвет логотипа */
@@ -127,6 +132,11 @@ header .container {
   color: var(--link-active-color);
   padding: 24px 0 25px 0px;
 }
+@media screen and (min-width: 777px) {
+  .logo {
+    padding: 24px 0 25px 0px;
+  }
+}
 
 .logo2 {
   font-family: "Raleway";
@@ -137,10 +147,35 @@ header .container {
   color: var(--logo-second-color);
   margin-right: 104px;
 }
+@media screen and (max-width: 1199px) {
+  .logo2 {
+    margin-right: 78px;
+  }
+}
 
 .navigation {
   display: flex;
   height: 80px;
+}
+@media screen and (max-width: 480px) {
+  .navigation {
+    display: none;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .navigation {
+    justify-content: space-between;
+  }
+}
+
+.navigation2 {
+  display: flex;
+}
+@media screen and (max-width: 1199px) {
+  .navigation2 {
+    display: block;
+    padding-top: 14px;
+  }
 }
 
 .navigation__list-string {
@@ -150,8 +185,18 @@ header .container {
 .navigation__list-string:not(:last-child) {
   margin-right: 54px;
 }
+@media screen and (max-width: 1199px) {
+  .navigation__list-string:not(:last-child) {
+    margin-right: 48px;
+  }
+}
 .navigation__list-string:last-child {
   margin-right: 280px;
+}
+@media screen and (max-width: 1199px) {
+  .navigation__list-string:last-child {
+    margin-right: 77px;
+  }
 }
 
 .navigation__links {
@@ -185,6 +230,12 @@ header .container {
 .otstup-top {
   padding-top: 32px;
 }
+@media screen and (max-width: 1199px) {
+  .otstup-top {
+    display: block;
+    padding-top: 8px;
+  }
+}
 
 .navigation__mail-tel {
   text-decoration: none;
@@ -209,9 +260,20 @@ header .container {
 .navigation__special-svg:hover, .navigation__special-svg:focus {
   fill: var(--link-active-color);
 }
+@media screen and (max-width: 1199px) {
+  .navigation__special-svg {
+    margin-right: 6px;
+  }
+}
 
 .mailmargin {
   margin-right: 30px;
+}
+@media screen and (max-width: 1199px) {
+  .mailmargin {
+    margin-right: 0px;
+    margin-bottom: 7px;
+  }
 }
 
 /* Ноги --------+ Backdrop-------------*/
