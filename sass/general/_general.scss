@@ -4,7 +4,21 @@ body {
     color: red;
   }
   .section {
-    padding: 94px 0px 94px 0px;
+    padding: 60px 0px 60px 0px;
+
+    @media screen and (min-width: 480px) {
+      padding: 60px 0px 60px 0px;
+      
+    }
+
+    @media screen and (min-width: 768px) {
+      padding: 60px 0px 60px 0px;
+      
+    }
+    @media screen and (min-width: 1200px) {
+      padding: 94px 0px 94px 0px;
+      
+    }
   }
   
   .container {
@@ -13,13 +27,18 @@ body {
     margin: 0 auto;
 
     @media screen and (min-width: 480px) {
-      width: 448px;
+      width: 450px;
       
     }
 
 
     @media screen and (min-width: 768px) {
-      width: 720px;
+      width: 748px;
+      
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 1170px;
       
     }
   }
