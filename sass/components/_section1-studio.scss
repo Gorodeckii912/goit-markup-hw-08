@@ -4,28 +4,62 @@
 
 .WS1 {
     background-color: var(--main-Section1and2Back-color);
-    padding-bottom: 120px ;
+    padding-bottom: 94px ;
+    @media screen and (min-width: 480px) {
+      padding: 60px 0px 60px 0px;
+      
+    }
+
+    @media screen and (min-width: 768px) {
+      padding: 60px 0px 60px 0px;
+      
+    }
+    @media screen and (min-width: 1200px) {
+      padding: 94px 0px 94px 0px;
+      
+    }
   }
   
   .section__specials {
     
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
     text-decoration: none;
   }
   
   .section__item {
-    width: 270px;
-    height: 120px;
+    width: auto;
+    height: auto;
     background: #f5f4fa;
     border-radius: 4px;
+
+    @media screen and (min-width: 480px) {
+      width: 450px;
+      
+  
+    
+    }
+
+    @media screen and (min-width: 768px) {
+      width: calc( (100% - 60px) / 2);
+      
+  
+    
+    }
+  
+    @media screen and (min-width: 1200px) {
+      width:calc((100% - 120px) / 4);
+      
+      
+    }
     
   }
   
   .section__links {
     width: 100%;
-    height: 100%;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,13 +74,24 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--H2-H3-Text-color);
-    margin-top: 30px;
+    
     margin-bottom: 10px;
-    width: 270px;
+    @media screen and (max-width: 480px) {
+      width: 450px;
+      text-align: center;
+  
+    
+    }
+    
   }
   
   .WW {
-    margin-right: 30px;
+    width: auto;
+    height: 127px;
+    padding-top: 30px;
+    background-color: #ffffff;
+
+    
   }
   .LL {
     margin-left: auto;
@@ -59,7 +104,14 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--P-Text-color);
-    width: 270px;
+    width: auto;
+
+    @media screen and (max-width: 480px) {
+      width: 450px;
+      
+  
+    
+    }
   }
   .section__ulstyle { list-style: none;
     display: flex;}

@@ -14,13 +14,14 @@
   margin-bottom: 50px;
 }
 .ULclients {
-  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 }
 .SVGclients {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   box-sizing: border-box;
-  width: 170px;
+  width: auto;
   height: 92px;
   transition: var(--time-trans);
   transition-timing-function: var(--Cubik);
@@ -28,6 +29,32 @@
   &:hover,
   &:focus {
     border: 1px solid rgba(33, 150, 243, 1);
+  }
+  @media screen and (min-width: 480px) {
+    width: calc( (100% - 60px) / 2);
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+  
+  }
+
+  @media screen and (min-width: 768px) {
+    width: calc( (100% - 90px) / 3);
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+  
+  }
+
+  
+    
+  
+  @media screen and (min-width: 1200px) {
+    width:calc((100% - 180px) / 6);
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    margin-left: 0px;
   }
 }
 

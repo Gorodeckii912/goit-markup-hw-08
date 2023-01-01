@@ -1,6 +1,15 @@
 /* section 2 ----------------------------*/
 .WS2 {
     background-color: var(--main-Section1and2Back-color);
+    
+
+
+   
+
+    @media screen and (max-width: 1199px) {
+      display: none;
+      
+    }
   }
   
   .section__WS2h2 {
