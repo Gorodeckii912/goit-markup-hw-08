@@ -116,6 +116,7 @@ body {
   border-bottom: 1px solid #ececec;
   max-width: 1600px;
   margin: 0 auto;
+  position: relative;
 }
 
 header .container {
@@ -151,6 +152,48 @@ header .container {
   .logo2 {
     margin-right: 78px;
   }
+}
+
+.btn-head-menu {
+  margin-left: auto;
+  display: inline-flex;
+  border: none;
+  background-color: transparent;
+}
+.btn-head-menu:hover, .btn-head-menu:focus {
+  fill: var(--link-active-color);
+}
+@media screen and (min-width: 481px) {
+  .btn-head-menu {
+    display: none;
+  }
+}
+
+.btn-head-menu .icon-close {
+  display: none;
+}
+
+.btn-head-menu.is-open1 .icon-close {
+  display: block;
+}
+
+.btn-head-menu.is-open1 .icon-menu {
+  display: none;
+}
+
+.menu-head {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+}
+.menu-head.is-open1 {
+  display: block;
 }
 
 .navigation {

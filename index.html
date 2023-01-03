@@ -29,6 +29,27 @@
         <a href="" class="links">
           <p class="logo">Web<span class="logo2">Studio</span></p></a
         >
+        <!-- button menu -->
+        <button
+          type="button"
+          class="btn-head-menu is-open1"
+          data-head-open
+          aria-expanded="false"
+          aria-controls="menu-head"
+          aria-label="active mobile menu"
+        >
+          <svg width="40" height="40">
+            <use
+              class="icon-close"
+              href="./images/icons.svg#icon-menu_40px"
+            ></use>
+            <use
+              class="icon-menu"
+              href="./images/icons.svg#icon-close_40px"
+            ></use>
+          </svg>
+        </button>
+        <div class="menu-head" id="menu-head" data-head>menu</div>
 
         <nav class="navigation">
           <ul class="navigation__list ulstyle">
@@ -43,7 +64,7 @@
             </li>
           </ul>
           <div class="otstup-top">
-            <ul class="navigation2 ">
+            <ul class="navigation2">
               <li class="navigation__list ulstyle">
                 <a
                   href="mailto:info@devstudio.com"
@@ -101,46 +122,54 @@
                 </svg>
               </a>
               <div class="WW">
-              <h3 class="section__WS1h3 ">Увага до деталей</h3>
-              <p class="section__WS1P ">
-                Ідейні міркування, і навіть початок повсякденної роботи з
-                формування позиції.
-              </p></div>
+                <h3 class="section__WS1h3">Увага до деталей</h3>
+                <p class="section__WS1P">
+                  Ідейні міркування, і навіть початок повсякденної роботи з
+                  формування позиції.
+                </p>
+              </div>
             </li>
             <li class="section__item">
               <a href="#" class="section__links">
                 <svg width="70" height="70" href="">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
-              </a><div class="WW">
-              <h3 class="section__WS1h3 ">Пунктуальність</h3>
-              <p class="section__WS1P">
-                Завдання організації, особливо рамки і місце навчання кадрів
-                тягне у себе.
-              </p></div>
+              </a>
+              <div class="WW">
+                <h3 class="section__WS1h3">Пунктуальність</h3>
+                <p class="section__WS1P">
+                  Завдання організації, особливо рамки і місце навчання кадрів
+                  тягне у себе.
+                </p>
+              </div>
             </li>
             <li class="section__item">
               <a href="#" class="section__links">
                 <svg width="70" height="70" href="">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
-              </a><div class="WW">
-              <h3 class="section__WS1h3 ">Планування</h3>
-              <p class="section__WS1P ">
-                Так само консультація з широким активом значною мірою зумовлює.
-              </p></div>
+              </a>
+              <div class="WW">
+                <h3 class="section__WS1h3">Планування</h3>
+                <p class="section__WS1P">
+                  Так само консультація з широким активом значною мірою
+                  зумовлює.
+                </p>
+              </div>
             </li>
             <li class="section__item">
               <a href="#" class="section__links">
                 <svg width="70" height="70" href="">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
-              </a><div class="WW">
-              <h3 class="section__WS1h3">Сучасні технології</h3>
-              <p class="section__WS1P">
-                Значимість цих проблем настільки очевидна, що реалізація
-                планових завдань.
-              </p></div>
+              </a>
+              <div class="WW">
+                <h3 class="section__WS1h3">Сучасні технології</h3>
+                <p class="section__WS1P">
+                  Значимість цих проблем настільки очевидна, що реалізація
+                  планових завдань.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
@@ -200,7 +229,6 @@
                 class="section__imgworkers"
                 src="images2/44.jpg"
                 alt="Product Designer"
-                
               />
               <div class="section__namesborder">
                 <h3 class="section__WS3h3">Ігор Дем'яненко</h3>
@@ -242,7 +270,6 @@
                 class="section__imgworkers"
                 src="images2/55.jpg"
                 alt="Frontend Developer"
-                
               />
               <div class="section__namesborder">
                 <h3 class="section__WS3h3">Ольга Рєпіна</h3>
@@ -284,7 +311,6 @@
                 class="section__imgworkers"
                 src="images2/66.jpg"
                 alt="Marketing"
-                
               />
               <div class="section__namesborder">
                 <h3 class="section__WS3h3">Микола Тарасов</h3>
@@ -326,7 +352,6 @@
                 class="section__imgworkers"
                 src="images2/77.jpg"
                 alt="UI Designer"
-                
               />
               <div class="section__namesborder">
                 <h3 class="section__WS3h3">Михайло Єрмаков</h3>
@@ -498,6 +523,9 @@
         </div>
       </div>
     </footer>
+
+    <!-- BAckdrop_________________________ -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
@@ -579,6 +607,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/headmodal.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
