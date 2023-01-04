@@ -29,7 +29,7 @@
   color: var(--main-HeroButtonText-color);
   padding: 106px 252px 0 252px;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (min-width: 320px) {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
@@ -40,6 +40,31 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     padding: 58px 60px 0 60px;
+  }
+
+  @media screen and (min-width: 700px) {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 58px 186px 0 186px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    font-family: "Roboto";
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-HeroButtonText-color);
+  padding: 106px 252px 0 252px;
   }
 }
 
@@ -66,8 +91,18 @@
     color: var(--main-ButtonActive-color);
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (min-width: 320px) {
     margin: 30px 120px 58px 120px;
+    
+    
+  }
+  @media screen and (min-width: 700px) {
+    margin: 30px 264px 58px 264px;
+    
+    
+  }
+  @media screen and (min-width: 1110px) {
+    margin: 30px 485px 106px 485px;
     
     
   }

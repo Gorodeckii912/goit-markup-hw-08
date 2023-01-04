@@ -401,6 +401,15 @@ header .container {
   margin-left: auto;
   margin-top: 72px;
 }
+@media screen and (min-width: 320px) {
+  .united2 {
+    text-align: center;
+    margin-top: 55px;
+    margin-right: auto;
+    width: 450px;
+    height: 100%;
+  }
+}
 @media screen and (max-width: 480px) {
   .united2 {
     text-align: center;
@@ -415,7 +424,7 @@ header .container {
   display: flex;
   position: absolute;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) {
   .unaited2-1 {
     display: block;
     position: static;
@@ -433,7 +442,7 @@ header .container {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) {
   .modal-input-2 {
     width: 450px;
   }
@@ -465,7 +474,7 @@ header .container {
   background-image: url("../images2/icon send.svg");
   background-size: contain;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) {
   .BTN-footer {
     margin-top: 20px;
     margin-bottom: 60px;
@@ -767,7 +776,7 @@ header .container {
   color: var(--main-HeroButtonText-color);
   padding: 106px 252px 0 252px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) {
   .section__HERO {
     font-family: "Roboto";
     font-style: normal;
@@ -778,6 +787,32 @@ header .container {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     padding: 58px 60px 0 60px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .section__HERO {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 58px 186px 0 186px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .section__HERO {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-HeroButtonText-color);
+    padding: 106px 252px 0 252px;
   }
 }
 
@@ -801,9 +836,19 @@ header .container {
 .section__Hbutton:hover, .section__Hbutton:focus {
   color: var(--main-ButtonActive-color);
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) {
   .section__Hbutton {
     margin: 30px 120px 58px 120px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .section__Hbutton {
+    margin: 30px 264px 58px 264px;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .section__Hbutton {
+    margin: 30px 485px 106px 485px;
   }
 }
 
@@ -851,7 +896,7 @@ header .container {
 }
 @media screen and (min-width: 768px) {
   .section__item {
-    width: calc((100% - 60px) / 2);
+    width: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1054,7 +1099,7 @@ header .container {
 }
 @media screen and (min-width: 768px) {
   .section__item-card {
-    width: calc((100% - 60px) / 2);
+    width: calc((100% - 30px) / 2);
   }
   .section__item-card:nth-child(odd) {
     margin-right: 30px;
@@ -1062,7 +1107,7 @@ header .container {
 }
 @media screen and (min-width: 1200px) {
   .section__item-card {
-    width: calc((100% - 120px) / 4);
+    width: calc((100% - 90px) / 4);
   }
   .section__item-card:not(:last-child) {
     margin-right: 30px;
@@ -1147,7 +1192,7 @@ header .container {
 }
 @media screen and (min-width: 768px) {
   .SVGclients {
-    width: calc((100% - 90px) / 3);
+    width: calc((100% - 60px) / 3);
     margin-bottom: 0px;
   }
   .SVGclients:nth-child(-n+3) {
@@ -1165,7 +1210,7 @@ header .container {
 }
 @media screen and (min-width: 1200px) {
   .SVGclients {
-    width: calc((100% - 180px) / 6);
+    width: calc((100% - 150px) / 6);
     margin-left: 0px;
     margin-bottom: 0px;
   }
