@@ -7,11 +7,20 @@
 
 .ulstyle2 {
   list-style: none;
+  @media screen and (max-width: 480px) {
+    
+    text-align: center
+  }
 }
 
 .logodown {
   margin-bottom: 28px;
   padding: 60px 0 0 0px;
+
+  @media screen and (max-width: 480px) {
+    
+    text-align: center
+  }
 }
 
 .logo3 {
@@ -24,12 +33,25 @@
 }
 .conFlex {
   display: flex;
+  @media screen and (max-width: 480px) {
+    display: block;
+  }
+
 }
 
 .unaited {
   width: 206px;
   height: 80px;
   padding: 72px;
+
+
+  @media screen and (max-width: 480px) {
+    width: 206px;
+  height: 80px;
+  padding: 0;
+  margin: auto auto auto auto;
+    
+  }
 }
 .unaited-h3 {
   font-family: "Roboto";
@@ -42,6 +64,10 @@
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 20px;
+  @media screen and (max-width: 480px) {
+    
+    text-align: center
+  }
 }
 .united2 {
   width: 570px;
@@ -49,10 +75,24 @@
 
   margin-left: auto;
   margin-top: 72px;
+  @media screen and (max-width: 480px) {
+    
+    text-align: center;
+    margin-top: 55px;
+    margin-right: auto;
+    width: 450px;
+  height: 100%;
+    
+  }
 }
+
 .unaited2-1 {
   display: flex;
   position: absolute;
+  @media screen and (max-width: 480px) {
+    display: block;
+    position: static;
+  }
 }
 .modal-input-2 {
   width: 358px;
@@ -65,6 +105,13 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  @media screen and (max-width: 480px) {
+    
+    
+    width: 450px;
+  
+    
+  }
 }
 .BTN-footer {
   background-color: #2196f3;
@@ -97,6 +144,13 @@
 
     background-image: url("../images2/icon\ send.svg");
     background-size: contain;
+  }
+  @media screen and (max-width: 480px) {
+    
+    
+   margin-top: 20px;
+   margin-bottom: 60px;
+    
   }
 }
 

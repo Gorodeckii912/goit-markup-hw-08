@@ -182,14 +182,15 @@ header .container {
 }
 
 .menu-head {
+  height: 796px;
   display: none;
   position: absolute;
-  top: 100%;
+  top: 0;
   left: 0;
   width: 100%;
   padding: 20px;
   text-align: center;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
 }
 .menu-head.is-open1 {
@@ -328,10 +329,20 @@ header .container {
 .ulstyle2 {
   list-style: none;
 }
+@media screen and (max-width: 480px) {
+  .ulstyle2 {
+    text-align: center;
+  }
+}
 
 .logodown {
   margin-bottom: 28px;
   padding: 60px 0 0 0px;
+}
+@media screen and (max-width: 480px) {
+  .logodown {
+    text-align: center;
+  }
 }
 
 .logo3 {
@@ -346,11 +357,24 @@ header .container {
 .conFlex {
   display: flex;
 }
+@media screen and (max-width: 480px) {
+  .conFlex {
+    display: block;
+  }
+}
 
 .unaited {
   width: 206px;
   height: 80px;
   padding: 72px;
+}
+@media screen and (max-width: 480px) {
+  .unaited {
+    width: 206px;
+    height: 80px;
+    padding: 0;
+    margin: auto auto auto auto;
+  }
 }
 
 .unaited-h3 {
@@ -365,6 +389,11 @@ header .container {
   color: #fff;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 480px) {
+  .unaited-h3 {
+    text-align: center;
+  }
+}
 
 .united2 {
   width: 570px;
@@ -372,10 +401,25 @@ header .container {
   margin-left: auto;
   margin-top: 72px;
 }
+@media screen and (max-width: 480px) {
+  .united2 {
+    text-align: center;
+    margin-top: 55px;
+    margin-right: auto;
+    width: 450px;
+    height: 100%;
+  }
+}
 
 .unaited2-1 {
   display: flex;
   position: absolute;
+}
+@media screen and (max-width: 480px) {
+  .unaited2-1 {
+    display: block;
+    position: static;
+  }
 }
 
 .modal-input-2 {
@@ -388,6 +432,11 @@ header .container {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+}
+@media screen and (max-width: 480px) {
+  .modal-input-2 {
+    width: 450px;
+  }
 }
 
 .BTN-footer {
@@ -415,6 +464,12 @@ header .container {
   margin-left: 10px;
   background-image: url("../images2/icon send.svg");
   background-size: contain;
+}
+@media screen and (max-width: 480px) {
+  .BTN-footer {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
 }
 
 .footer-soc {
@@ -712,6 +767,19 @@ header .container {
   color: var(--main-HeroButtonText-color);
   padding: 106px 252px 0 252px;
 }
+@media screen and (max-width: 480px) {
+  .section__HERO {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 58px 60px 0 60px;
+  }
+}
 
 .section__Hbutton {
   margin: 30px 485px 106px 485px;
@@ -724,7 +792,7 @@ header .container {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  padding: 10px 20px;
+  padding: 10px 25px;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: var(--time-trans);
@@ -732,6 +800,11 @@ header .container {
 }
 .section__Hbutton:hover, .section__Hbutton:focus {
   color: var(--main-ButtonActive-color);
+}
+@media screen and (max-width: 480px) {
+  .section__Hbutton {
+    margin: 30px 120px 58px 120px;
+  }
 }
 
 /* section1------------------------- */
