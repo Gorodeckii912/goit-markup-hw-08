@@ -29,33 +29,89 @@
         <a href="" class="links">
           <p class="logo">Web<span class="logo2">Studio</span></p></a
         >
-        <!-- button menu -->
-        <button
-          type="button"
-          class="btn-head-menu is-open1"
-          data-head-open
-          aria-expanded="false"
-          aria-controls="menu-head"
-          aria-label="active mobile menu"
-        >
-          <svg width="40" height="40">
-            <use
-              class="icon-close"
-              href="./images/icons.svg#icon-menu_40px"
-            ></use>
-            <use
-              class="icon-menu"
-              href="./images/icons.svg#icon-close_40px"
-            ></use>
-          </svg>
-        </button>
-        <div class="menu-head" id="menu-head" data-head> menu
+                    <!-- button menu -->
+                     <button
+                      type="button"
+                      class="btn-head-menu is-open1"
+                      data-head-open
+                      aria-expanded="false"
+                      aria-controls="menu-head"
+                      aria-label="active mobile menu"
+                    >
+                      <svg width="40" height="40">
+                        <use
+                          class="icon-close"
+                          href="./images/icons.svg#icon-menu_40px"
+                        ></use></svg></button>
 
+
+                        <!-- <use
+                          class="icon-menu"
+                          href="./images/icons.svg#icon-close_40px"
+                        ></use>
+                      </svg>
+                    </button>
+                    <div class="menu-head" id="menu-head" data-head> menu -->
+
+                      
+
+           <div class="mobile-menu ">
+              <button type="button" class="BTN-head"><svg width="40" height="40"><use
+                class="icon-menu"
+                href="./images/icons.svg#icon-close_40px"
+              ></use></svg></button>
+                    <nav class="mob-navigation">
+                      <ul class="mob__list">
+                        <li class="mob__lists">
+                          <a href="index.html" class="mob__link">Студія</a>
+                        </li>
+                          <li class="mob__lists">
+                          <a href="portfolio.html" class="mob__link"> Портфоліо </a>
+                        </li>
+                        <li class="mob__lists">
+                          <a href="#adres" class="mob__link"> Контакти </a>
+                        </li>
+                      </ul>
+                  </nav>
+                     <div class="menu-content">
+                            <div>
+                                      <ul class="mob__list">
+                                      <li class="mob__lists">
+                                      <a href="tel:+380961111111" class="mob__link-tel"
+                                      >
+                                      +38 096 111 11 11</a
+                                      >
+                                      </li>
+
+
+
+                                      <li class="">
+                                        <a
+                                        href="mailto:info@devstudio.com"
+                                      class="mob__link-mail"
+                                      >
+                                        info@devstudio.com</a
+                                        >
+                                      </li>
+                           </div>
+
+                  
+                            <div>
+                                  <ul class="mob__list2">
+                                  <li class="mob__lists2"><a href="#" class="mob__link2">Instagram</a></li>
+                                  <li class="mob__lists2"><a href="#" class="mob__link2">Twitter</a></li>
+                                  <li class="mob__lists2"><a href="#" class="mob__link2">Facebook</a></li>
+                                  <li class="mob__lists2"><a href="#" class="mob__link2">LinkedIn</a></li>
+                                  </ul>
+                            </div>
+                     </div>
+           </div>
+
+
+           
           
 
-          
-
-        </div>
+        
 
 
 
@@ -458,7 +514,7 @@
     <!-- nogi ---------------------------->
     <footer class="foot">
       <div class="container conFlex">
-        <div>
+        <div class="uni">
           <a href="" class="links">
             <p class="logo logodown">Web<span class="logo3">Studio</span></p></a
           >
@@ -487,7 +543,7 @@
           </address>
         </div>
 
-        <div class="unaited">
+        <div class="unaited uni">
           <h3 class="unaited-h3">Приєднуйся</h3>
           <ul class="footer-soc">
             <li class="footer-soc-items">
@@ -520,7 +576,8 @@
             </li>
           </ul>
         </div>
-        <div class="united2">
+
+        <div class="united2 uni">
           <h3 class="unaited-h3">Підпишіться на розсилку</h3>
           <div class="unaited2-1">
             <input
@@ -618,7 +675,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/headmodal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

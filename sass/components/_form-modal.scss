@@ -133,9 +133,9 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  margin: 0 164px 0 164px;
+  margin: 0 auto;
 
-  display: inline-block;
+  display: block;
   align-items: center;
 
   letter-spacing: 0.06em;
@@ -145,4 +145,5 @@
   border-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
 }
