@@ -182,6 +182,15 @@ header .container {
   background: #ffffff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
 }
+.mobile-menu .is-hidden {
+  left: -100px;
+  right: auto;
+}
+@media screen and (min-width: 481px) {
+  .mobile-menu {
+    display: none;
+  }
+}
 
 .BTN-head {
   display: block;
@@ -966,6 +975,21 @@ header .container {
   max-width: 1600px;
   margin: 0 auto;
 }
+@media screen and (min-width: 320px) {
+  .WS0 {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.2)), url("imagesnewimagesherohero480-1.jpg");
+  }
+}
+@media screen and (min-width: 481px) {
+  .WS0 {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.2)), url("imagesnewimagesherohero768 (1).jpg");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .WS0 {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.2)), url("../images2/hero.jpg");
+  }
+}
 
 .section__HERO {
   font-family: "Roboto";
@@ -988,7 +1012,7 @@ header .container {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding: 58px 60px 0 60px;
+    padding: 58px 10px 0 10px;
   }
 }
 @media screen and (min-width: 700px) {
@@ -1001,10 +1025,10 @@ header .container {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding: 58px 186px 0 186px;
+    padding: 58px 140px 0 140px;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .section__HERO {
     font-family: "Roboto";
     font-weight: 900;
@@ -1014,7 +1038,7 @@ header .container {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--main-HeroButtonText-color);
-    padding: 106px 252px 0 252px;
+    padding: 106px 230px 0 230px;
   }
 }
 
@@ -1034,6 +1058,8 @@ header .container {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: var(--time-trans);
   transition-timing-function: var(--Cubik);
+  display: block;
+  margin: 0 auto;
 }
 .section__Hbutton:hover, .section__Hbutton:focus {
   color: var(--main-ButtonActive-color);
@@ -1043,12 +1069,12 @@ header .container {
     margin: 30px 120px 58px 120px;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .section__Hbutton {
     margin: 30px 264px 58px 264px;
   }
 }
-@media screen and (min-width: 1110px) {
+@media screen and (min-width: 1200px) {
   .section__Hbutton {
     margin: 30px 485px 106px 485px;
   }
