@@ -58,7 +58,7 @@ body {
   padding: 0px 15px;
   margin: 0 auto;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .container {
     width: 450px;
   }
@@ -977,12 +977,12 @@ header .container {
 }
 @media screen and (min-width: 320px) {
   .WS0 {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.2)), url("imagesnewimagesherohero480-1.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.2)), url("../images/newimages/hero/hero480-1.jpg");
   }
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
   .WS0 {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.2)), url("imagesnewimagesherohero768 (1).jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.2)), url("../images/newimages/hero/hero768-1.jpg");
   }
 }
 @media screen and (min-width: 1200px) {

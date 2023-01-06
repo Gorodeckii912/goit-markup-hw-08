@@ -583,7 +583,10 @@ header .container {
   background-position: center;
   max-width: 1600px;
   margin: 0 auto;
-}
+    @media screen and (min-width: 320px) {url("../images/newimages/hero/hero768-1.jpg");
+
+
+}}
 
 .HERO {
   font-family: "Roboto";
