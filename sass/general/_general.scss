@@ -29,22 +29,19 @@ body {
     margin: 0 auto;
 
     @media screen and (min-width: 320px) {
-     width: 450px;
+     max-width: 450px;
       
     }
 
 
-    @media screen and (min-width: 768px) {
-      width: 738px;
+    @media screen and (min-width: 481px) {
+      max-width: 768px;
       
     }
 
-    @media screen and (min-width: 1200px) {
-      width: 1200px;
+    @media screen and (min-width: 769px) {
+      max-width: 1200px;
       
     }
-    @media screen and (max-width: 1199px) {
-      
-      padding: 0px;
-    }
+    
   }
