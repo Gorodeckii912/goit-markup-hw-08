@@ -621,6 +621,7 @@ header .container {
 }
 
 .modal-input-2 {
+  width: 517px;
   height: 50px;
   color: #fff;
   background: #2f303a;
@@ -637,12 +638,18 @@ header .container {
 }
 @media screen and (min-width: 319px) {
   .modal-input-2 {
+    max-width: 290px;
+  }
+}
+@media screen and (min-width: 410px) {
+  .modal-input-2 {
     max-width: 358px;
+    width: 358px;
   }
 }
 @media screen and (min-width: 1200px) {
   .modal-input-2 {
-    width: 358px;
+    width: 517px;
   }
 }
 
