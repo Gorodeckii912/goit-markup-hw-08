@@ -581,7 +581,7 @@ header .container {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 1600px;
+  max-width: 1600px ;
   margin: 0 auto;
     @media screen and (min-width: 320px) {url("../images/newimages/hero/hero768-1.jpg");
 
@@ -621,7 +621,7 @@ header .container {
   color: var(--main-ButtonActive-color);
 }
 
-/* section1------------------------- */
+/* section1------------------------------------- */
 /* WS1h3 - Webstudio Section 1 H3 */
 /* WS1P -wEBSTUDIO Section 1 P */
 
