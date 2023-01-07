@@ -329,11 +329,6 @@ header .container {
     display: none;
   }
 }
-@media screen and (max-width: 480px) {
-  .navigation .calc {
-    display: none;
-  }
-}
 
 .navigation2 {
   display: flex;
@@ -355,7 +350,7 @@ header .container {
 }
 @media screen and (max-width: 1199px) {
   .navigation__list-string:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 25px;
   }
 }
 .navigation__list-string:last-child {
@@ -363,7 +358,7 @@ header .container {
 }
 @media screen and (max-width: 1199px) {
   .navigation__list-string:last-child {
-    margin-right: 0;
+    margin-right: 0px;
   }
 }
 
@@ -402,6 +397,11 @@ header .container {
   .otstup-top {
     display: block;
     padding-top: 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .otstup-top {
+    display: none;
   }
 }
 
